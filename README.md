@@ -12,7 +12,7 @@
 - `libcurl4-openssl-dev`
 
 ## Как запустить
-1. Установить компилятор: 'sudo apt install g++ -y'
+1. Установить компилятор: `sudo apt install g++ -y`
 2. Скомпилировать: `g++ valute.cpp -o valute -lcurl`
 3. Запустить: `./valute`
 
