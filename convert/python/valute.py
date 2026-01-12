@@ -25,7 +25,7 @@ def convert_currency():
             if code in valid_codes:
                 return code
             else:
-                print(f"❌ Валюта '{code}' не найдена.")
+                print(f"Валюта '{code}' не найдена.")
                 suggestions = find_suggestions(code, all_codes_data)
                 if suggestions:
                     print("Возможно, вы имели в виду:")
