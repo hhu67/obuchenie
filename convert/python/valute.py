@@ -34,7 +34,6 @@ def convert_currency():
                 else:
                     print("подходящих вариантов не найдено")
                 print("-" * 20)
-
     base = get_valid_currency("Введите исходную валюту (напр. USD): ")
     target = get_valid_currency("Введите целевую валюту (напр. RUB): ")
     try:
