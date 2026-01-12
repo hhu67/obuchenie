@@ -25,14 +25,14 @@ def convert_currency():
             if code in valid_codes:
                 return code
             else:
-                print(f"Валюта '{code}' не найдена.")
+                print(f"Валюта '{code}' не найдена")
                 suggestions = find_suggestions(code, all_codes_data)
                 if suggestions:
                     print("Возможно, вы имели в виду:")
                     for s in suggestions:
                         print(f"  • {s}")
                 else:
-                    print("подходящих вариантов не найдено.")
+                    print("подходящих вариантов не найдено")
                 print("-" * 20)
 
     base = get_valid_currency("Введите исходную валюту (напр. USD): ")
@@ -49,6 +49,6 @@ def convert_currency():
         result = amount * rate
         print(f"\n✅ Результат: {amount} {base} = {result:.2f} {target}")
     else:
-        print("Произошла ошибка при получении курса.")
+        print("Произошла ошибка при получении курса")
 if __name__ == "__main__":
     convert_currency()
