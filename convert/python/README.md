@@ -13,7 +13,7 @@ sudo pacman -Syu python
 ```bash
 sudo apt install python3-requests
 ```
-Или, установите uv
+Или установите uv
 ```bash
 sudo pacman -S uv
 ```
