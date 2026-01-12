@@ -13,6 +13,10 @@ sudo pacman -Syu python
 ```bash
 sudo apt install python3-requests
 ```
+Или, установите uv
+```bash
+sudo pacman -S uv
+```
 Запустите файл, находясь в одном катологе с файлом:
 ```bash
 python3 valute.py
